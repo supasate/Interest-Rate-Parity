@@ -1,6 +1,6 @@
 # Interest Rate Parity JS
 
-[![Build Status](https://travis-ci.org/supasate/Intereset-Rate-Parity-JS.svg?branch=master)](https://travis-ci.org/supasate/Interest-Rate-Parity-JS)
+[![Build Status](https://travis-ci.org/supasate/Interest-Rate-Parity-JS.svg?branch=master)](https://travis-ci.org/supasate/Interest-Rate-Parity-JS)
 
 A library to calculate forward rate considering [interest rate parity](https://en.wikipedia.org/wiki/Interest_rate_parity) in Node.js
 
