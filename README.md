@@ -18,7 +18,7 @@ var spotExchangeRate = 0.78; // AUD/USD = 0.78
 var audInterestRate = 0.018; // 1.8% interest rate in Australia
 var usdInterestRate = 0.01; // 1% interest rate in U.S.
 var timePeriod = 1; // 1 year
-var rate = forwardRate(spotExchangeRate, audInterestRate, usdInterestRate);
+var rate = forwardRate(spotExchangeRate, audInterestRate, usdInterestRate, timePeriod);
 
 console.log('Forward rate of AUD/USD considering the Interest Rate Parity is ' + rate);
 // TForward rate of AUD/USD considering the Interest Rate Parity is
@@ -32,7 +32,7 @@ const spotExchangeRate = 0.78; // AUD/USD = 0.78
 const audInterestRate = 0.018; // 1.8% interest rate in Australia
 const usdInterestRate = 0.01; // 1% interest rate in U.S.
 const timePeriod = 1; // 1 year
-const rate = forwardRate(spotExchangeRate, audInterestRate, usdInterestRate);
+const rate = forwardRate(spotExchangeRate, audInterestRate, usdInterestRate, timePeriod);
 
 console.log('Forward rate of AUD/USD considering the Interest Rate Parity is ' + rate);
 // TForward rate of AUD/USD considering the Interest Rate Parity is
